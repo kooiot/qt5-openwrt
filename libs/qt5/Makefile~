@@ -78,7 +78,7 @@ endef
 define Package/qt5-xml
   $(call Package/qt5/Default)
   TITLE+=xml
-  DEPENDS+=+qt5-core +libmysqlclient
+  DEPENDS+=+qt5-core +libmysqlclient 
 endef
 
 define Package/qt5-serialport
